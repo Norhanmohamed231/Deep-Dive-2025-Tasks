@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <form id="register-form" action="">
+        <h1>Hi,Welcome to <img src="./images/AGORA.png" alt="">!</h1>
+        <p>Register your account</p>
+        <div class="name">
+            <div class="first-name">
+                <label for="">First name</label><br>
+                <div class="input">
+                    <div id="user">
+                        <i class="fa-solid fa-user-pen" style="color: #92959b;"></i>
+                    </div>
+                    <input type="text" placeholder="Ahmed" id="reg-name">
+                </div>
+            </div>
+            <div class="phone">
+                <label for="">Mobile Phone</label><br>
+                <div class="input">
+                    <div id="user-pen">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <input type="text" placeholder="+20123456789" id="reg-phone">
+                </div>
+            </div>
+        </div>
+        <div class="email-gender">
+            <div class="mail">
+                <label for="">Email address</label><br>
+                <div class="input">
+                    <div id="envelope">
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <input type="email" placeholder="lslslsks@gmail.com" id="reg-email">
+                </div>
+            </div>
+            <div class="address">
+                <label for="gen">Address</label><br>
+                <div class="input">
+                    <div id="address">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <input type="text" placeholder="Egypt" id="reg-address">
+                </div>
+            </div>
+        </div>
+        <div class="pass-con">
+            <div class="password">
+                <label for="">Password</label><br>
+                <div class="input">
+                    <div id="lock">
+                        <i class="fa-solid fa-lock"></i>
+                    </div>
+                    <input type="password" id="reg-password">
+                    <div id="eye">
+                        <i class="fa-solid eye fa-eye-slash"></i>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="confirm-password">
+                <label for="">Confirm-Password</label><br>
+                <div class="input">
+                    <div id="lockConfirm">
+                        <i class="fa-solid fa-lock" style="color: #92959b;"></i>
+                    </div>
+                    <input type="password" id="reg-password-confirm" placeholder="1012468">
+                    <div id="eyeConfirm">
+                        <i class="fa-solid eye fa-eye-slash"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="login">Register</button>
+            <div class="login-with">
+                <hr class="one">
+                <p class="login-with">Or Login With</p>
+                <hr class="two">
+            </div>
+            <button class="sign"><i class="fa-brands fa-google" style="color: #03810c;"></i>sign up with Google</button>
+        </div>
+    </form>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/js/all.min.js" integrity="sha512-gBYquPLlR76UWqCwD06/xwal4so02RjIR0oyG1TIhSGwmBTRrIkQbaPehPF8iwuY9jFikDHMGEelt0DtY7jtvQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/register.js"></script>
+</body>
+
+</html>
